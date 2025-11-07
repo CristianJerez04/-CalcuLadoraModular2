@@ -10,5 +10,6 @@ int main()
     std::cout << "Resta: " << restar(x, y) << std::endl;
     std::cout << "Multiplicación: " << multiplicar(x, y) << std::endl;
     std::cout << "División: " << dividir(x, y) << std::endl;
+    std::cout << "Potencia: " << potencia(x, y) << std::endl;
     return 0;
 }
