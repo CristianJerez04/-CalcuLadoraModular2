@@ -1,15 +1,16 @@
 var NAVTREEINDEX0 =
 {
 "calculadora_8cpp.html":[0,0,0],
-"calculadora_8cpp.html#a509f86e99a8290237c873c6baed870fb":[0,0,0,2],
+"calculadora_8cpp.html#a2609d76cef36809e7933f6647adfafe9":[0,0,0,2],
+"calculadora_8cpp.html#a509f86e99a8290237c873c6baed870fb":[0,0,0,3],
 "calculadora_8cpp.html#a5bdc2a27d12750d7d3c15f8a7654482f":[0,0,0,1],
-"calculadora_8cpp.html#ad2fc341d60a4e2d9598d41b04d4e513a":[0,0,0,3],
+"calculadora_8cpp.html#ad2fc341d60a4e2d9598d41b04d4e513a":[0,0,0,4],
 "calculadora_8cpp.html#ae8b83029e1ae773db83c236e9b4af716":[0,0,0,0],
-"calculadora_8cpp_source.html":[0,0,0],
 "calculadora_8h.html":[0,0,1],
-"calculadora_8h.html#a509f86e99a8290237c873c6baed870fb":[0,0,1,2],
+"calculadora_8h.html#a2609d76cef36809e7933f6647adfafe9":[0,0,1,2],
+"calculadora_8h.html#a509f86e99a8290237c873c6baed870fb":[0,0,1,3],
 "calculadora_8h.html#a5bdc2a27d12750d7d3c15f8a7654482f":[0,0,1,1],
-"calculadora_8h.html#ad2fc341d60a4e2d9598d41b04d4e513a":[0,0,1,3],
+"calculadora_8h.html#ad2fc341d60a4e2d9598d41b04d4e513a":[0,0,1,4],
 "calculadora_8h.html#ae8b83029e1ae773db83c236e9b4af716":[0,0,1,0],
 "calculadora_8h_source.html":[0,0,1],
 "files.html":[0,0],
@@ -18,6 +19,5 @@ var NAVTREEINDEX0 =
 "index.html":[],
 "main_8cpp.html":[0,0,2],
 "main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[0,0,2,0],
-"main_8cpp_source.html":[0,0,2],
 "pages.html":[]
 };

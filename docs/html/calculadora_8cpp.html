@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ProyectoCpp: calculadora.cpp File Reference</title>
+<title>CalculadoraModular: calculadora.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ProyectoCpp
+   <div id="projectname">CalculadoraModular
    </div>
   </td>
  </tr>
@@ -92,9 +92,12 @@ $(function(){initNavTree('calculadora_8cpp.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="calculadora_8h_source.html">calculadora.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for calculadora.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="calculadora_8cpp__incl.png" border="0" usemap="#acalculadora_8cpp" loading="lazy" alt=""/></div>
 </div>
-<p><a href="calculadora_8cpp_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ad2fc341d60a4e2d9598d41b04d4e513a" id="r_ad2fc341d60a4e2d9598d41b04d4e513a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2fc341d60a4e2d9598d41b04d4e513a">sumar</a> (int a, int b)</td></tr>
@@ -105,6 +108,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a5bdc2a27d12750d7d3c15f8a7654482f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplica dos números enteros.  <br /></td></tr>
 <tr class="memitem:ae8b83029e1ae773db83c236e9b4af716" id="r_ae8b83029e1ae773db83c236e9b4af716"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8b83029e1ae773db83c236e9b4af716">dividir</a> (int a, int b)</td></tr>
 <tr class="memdesc:ae8b83029e1ae773db83c236e9b4af716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divide dos números enteros.  <br /></td></tr>
+<tr class="memitem:a2609d76cef36809e7933f6647adfafe9" id="r_a2609d76cef36809e7933f6647adfafe9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2609d76cef36809e7933f6647adfafe9">potencia</a> (int base, int exponente)</td></tr>
+<tr class="memdesc:a2609d76cef36809e7933f6647adfafe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eleva un número entero a una potencia entera positiva.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ae8b83029e1ae773db83c236e9b4af716" name="ae8b83029e1ae773db83c236e9b4af716"></a>
@@ -129,8 +134,6 @@ Functions</h2></td></tr>
 <p>Divide dos números enteros. </p>
 <dl class="section return"><dt>Returns</dt><dd>Devuelve 0 si el divisor es 0. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="calculadora_8cpp_source.html#l00005">5</a> of file <a class="el" href="calculadora_8cpp_source.html">calculadora.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a5bdc2a27d12750d7d3c15f8a7654482f" name="a5bdc2a27d12750d7d3c15f8a7654482f"></a>
@@ -154,7 +157,36 @@ Functions</h2></td></tr>
 
 <p>Multiplica dos números enteros. </p>
 
-<p class="definition">Definition at line <a class="el" href="calculadora_8cpp_source.html#l00004">4</a> of file <a class="el" href="calculadora_8cpp_source.html">calculadora.cpp</a>.</p>
+</div>
+</div>
+<a id="a2609d76cef36809e7933f6647adfafe9" name="a2609d76cef36809e7933f6647adfafe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2609d76cef36809e7933f6647adfafe9">&#9670;&#160;</a></span>potencia()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int potencia </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>base</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>exponente</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Eleva un número entero a una potencia entera positiva. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">base</td><td>Número base. </td></tr>
+    <tr><td class="paramname">exponente</td><td>Número exponente. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Resultado de base elevado a exponente. </dd></dl>
 
 </div>
 </div>
@@ -179,8 +211,6 @@ Functions</h2></td></tr>
 
 <p>Resta dos números enteros. </p>
 
-<p class="definition">Definition at line <a class="el" href="calculadora_8cpp_source.html#l00003">3</a> of file <a class="el" href="calculadora_8cpp_source.html">calculadora.cpp</a>.</p>
-
 </div>
 </div>
 <a id="ad2fc341d60a4e2d9598d41b04d4e513a" name="ad2fc341d60a4e2d9598d41b04d4e513a"></a>
@@ -203,8 +233,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Suma dos números enteros. </p>
-
-<p class="definition">Definition at line <a class="el" href="calculadora_8cpp_source.html#l00002">2</a> of file <a class="el" href="calculadora_8cpp_source.html">calculadora.cpp</a>.</p>
 
 </div>
 </div>

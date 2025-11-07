@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "ProyectoCpp", "index.html", [
+  [ "CalculadoraModular", "index.html", [
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
